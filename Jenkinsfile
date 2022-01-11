@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('Build2') {
            steps {
                 echo 'Build Completed...'
                 timeout(time: 5, unit: 'SECONDS') {
