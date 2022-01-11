@@ -10,7 +10,11 @@ pipeline {
               }
             }
          }
-        
+        stage('test') {
+            steps {
+                echo 'Testing Completed...'
+            }
+        }
         stage('Deploy') {
             steps {
                 echo 'Depolying Completed...'
